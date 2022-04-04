@@ -1,0 +1,93 @@
+
+
+.box-search-product{
+    padding-bottom: 32px;
+
+    .container-box {
+        background: #fff;
+        padding: 0px 16px;
+        
+        .box-produc {
+            padding: 16px 0px;
+            border-bottom: 1px solid #eee;
+
+            a{
+                display: flex;
+    
+                .box-image{
+                    img {
+                        width: 180px;
+                        border-radius: 4px;
+                    }
+                }
+    
+                .box-content {
+                    text-align: left;
+                    padding: 16px;
+                    width: calc(66.6% - 90px);
+    
+                    span.price {
+                        font-size: 24px;
+                        color: #333;
+                    }
+    
+                    h3{
+                        font-size: 18px;
+                        margin-top: 32px;
+                        color: #333;
+                    }
+                }
+
+                .box-city{
+                    font-size: 12px;
+                    padding: 16px;
+                    width: calc(33.3% - 90px);
+                    text-align: left;
+                    color: #999999;
+                }
+            }
+
+            @media screen and (max-width:767px){
+                a{
+                    display: block ;
+                    .box-image{ 
+                        img {
+                            width: 100%;
+                        }
+                    }
+            
+                    .box-content {
+                        width: 100%;
+                        padding: 0px;
+                    }
+            
+                    .box-city {
+                        width: 100%;
+                        padding: 0px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+ol {
+    @media screen and (max-width:767px){
+        
+            padding: 0px 16px;
+        
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+    }
+    
+    li:nth-child(1){
+        .flecha-right{
+            display: none;
+        }
+    }
+}

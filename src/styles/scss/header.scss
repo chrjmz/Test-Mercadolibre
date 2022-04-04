@@ -1,0 +1,52 @@
+header {
+    background: #FFe600;
+
+    .container{
+
+        .row {
+            display: flex;
+
+            .box-logo {
+                width: 100px;
+                a{
+                    padding: 8px 5px 5px 5px;
+                    display: block;
+
+                    img{
+                        height: 34px;
+                    }
+                }
+            }
+        
+            .box-search {
+                width: 1100px;
+                padding: 8px;
+
+                form{
+                    display: flex;
+
+                    input[type="search"] {
+                        padding: 5px 12px;
+                        width: 100%;
+                        border: 1px solid #f5f5f5;
+                        font-size: 18px;
+                        color: #999999;
+                    }
+
+                    input[type="search"]:focus-visible {
+                        outline: none;
+                    }
+
+                    button {
+                        min-height: 34px;
+                        border: 1px solid #f5f5f5;
+                        border-left: 0px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
