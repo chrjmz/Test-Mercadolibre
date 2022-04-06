@@ -27,5 +27,14 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
+# Start Build
+
+For environments using Node, the easiest way to handle this would be to install serve and let it handle the rest:
+
+## npm install -g serve
+
+## serve -s build
+
+
 
 
