@@ -14,6 +14,10 @@ This reusable React component will manage all of your changes to the document he
 
 The react-router-dom package contains bindings for using React Router in web applications. Please see the Getting Started guide for more information on how to get started with React Router.
 
+### npm install sass
+
+Node-sass is a library that provides binding for Node.js to LibSass, the C version of the popular stylesheet preprocessor, Sass.
+
 ### `npm start`
 
 Runs the app in the development mode.\
